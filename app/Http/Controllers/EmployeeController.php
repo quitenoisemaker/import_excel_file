@@ -11,7 +11,7 @@ use Maatwebsite\Excel\Facades\Excel;
 class EmployeeController extends Controller
 {
 
-    public function getRecords()
+    public function getEmployeeRecords()
     {
 
         $EmployeeRecords = Employee::getEmployeeRecords();
